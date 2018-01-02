@@ -380,10 +380,6 @@ Good programmers know how to name things well. Finding the most appropriate term
 
 
 
-### manage /
-
-
-
 ### map / reduce
 
 
