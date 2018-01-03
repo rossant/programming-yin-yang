@@ -1,4 +1,4 @@
-# Programming Antonyms Glossary
+# A list of antonyms commonly used in programming
 
 > There are only two hard things in Computer Science: cache invalidation and naming things. ― Phil Karlton
 
