@@ -1,6 +1,6 @@
 # Programming Antonyms Glossary
 
-There are only two hard things in Computer Science: cache invalidation and naming things. ― Phil Karlton
+> There are only two hard things in Computer Science: cache invalidation and naming things. ― Phil Karlton
 
 Good programmers name things well. Finding the most appropriate and common terms for complex concepts and abstractions may be difficult, especially for non-native English speakers. This page proposes English words and antonyms that are commonly used in programming.
 
