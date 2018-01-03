@@ -1,636 +1,789 @@
 # Programming Antonyms Glossary
 
-> There are only two hard things in Computer Science: cache invalidation and naming things. - Phil Karlton
+There are only two hard things in Computer Science: cache invalidation and naming things. ― Phil Karlton
 
-Good programmers know how to name things well. Finding the most appropriate terms for complex concepts and abstractions may be difficult, especially for non-native English speakers. This page proposes English words and antonyms that are commonly used in programming. They can be used as an inspiration to programmers who want to be better at naming things.
+Good programmers name things well. Finding the most appropriate and common terms for complex concepts and abstractions may be difficult, especially for non-native English speakers. This page proposes English words and antonyms that are commonly used in programming.
 
-### accept / reject
+This is a work in progress, feel free to open issues and propose pull requests.
 
 
+## abstract / concrete
 
-### acquire / release
+[Abstract type](https://en.wikipedia.org/wiki/Abstract_type).
 
 
+## accept / reject
 
-### add / remove
 
 
+## acquire / release
 
-### allocate / free
+[Concurrent computing](https://en.wikipedia.org/wiki/Concurrent_computing).
+[Acquire and release semantics](http://preshing.com/20120913/acquire-and-release-semantics/).
+[Mutex](https://en.wikipedia.org/wiki/Mutual_exclusion), [semaphores](https://en.wikipedia.org/wiki/Semaphore_(programming)).
 
 
+## add / remove
 
-### allow / deny
 
 
+## allocate / free
 
-### ancestor / descendent
+[Memory management](https://en.wikipedia.org/wiki/Memory_management).
 
 
+## allow / deny
 
-### and / or
 
 
+## ancestor / descendent
 
-### any / all
+[Trees](https://en.wikipedia.org/wiki/Tree_(data_structure)).
 
 
+## and / or
 
-### assemble / disassemble
+[Boolean algebra](https://en.wikipedia.org/wiki/Boolean_algebra).
 
 
+## any / all
 
-### assign / deassign
+[Quantifiers](https://en.wikipedia.org/wiki/Quantifier_(logic)).
 
 
+## assemble / disassemble
 
-### attach / detach
+[Assembly language](https://en.wikipedia.org/wiki/Assembly_language).
+[Disassembler](https://en.wikipedia.org/wiki/Disassembler).
 
 
 
-### authorize / unauthorize
+## assign / deassign
 
 
 
-### balance / unbalance
+## attach / detach
 
 
 
-### begin / end
+## authorize / unauthorize
 
 
 
-### best / worse
+## balance / unbalance
 
 
 
-### bind / unbind
+## begin / end
 
 
 
-### break / continue
+## best / worse
 
 
 
-### client / server
+## bind / unbind
 
+[Network socket](https://en.wikipedia.org/wiki/Network_socket).
 
 
-### coalesce / fragment
+## blocking / non-blocking
 
 
+## break / continue
 
-### coarse / fine
+[Control flow](https://en.wikipedia.org/wiki/Control_flow).
 
 
+## client / server
 
-### commit / rollback
+[Client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model).
 
 
+## coalesce / fragment
 
-### compile / decompile
+[Coalescing](https://en.wikipedia.org/wiki/Coalescing_(computer_science)).
+[Fragmentation](https://en.wikipedia.org/wiki/Fragmentation_(computing)).
+[Memory segmentation](https://en.wikipedia.org/wiki/Memory_segmentation).
+[Memory management](https://en.wikipedia.org/wiki/Memory_management_(operating_systems)).
 
 
+## coarse / fine
 
-### compress / decompress
+[Granular computing](https://en.wikipedia.org/wiki/Granular_computing).
+[Granularity](https://en.wikipedia.org/wiki/Granularity_(parallel_computing)).
 
 
+## commit / rollback
 
-### confirm / cancel
+[Rollback](https://en.wikipedia.org/wiki/Rollback_(data_management)).
+[Database transaction](https://en.wikipedia.org/wiki/Database_transaction).
+[Version control](https://en.wikipedia.org/wiki/Version_control).
 
 
+## compile / decompile
 
-### conjunction / disjunction
 
 
+## compress / decompress
 
-### connect / disconnect
+[Data compression](https://en.wikipedia.org/wiki/Data_compression).
 
 
+## confirm / cancel
 
-### constant / variable
 
 
+## conjunction / disjunction
 
-### construct / destruct
+[Logical conjunction](https://en.wikipedia.org/wiki/Logical_conjunction).
+[Logical disjunction](https://en.wikipedia.org/wiki/Logical_disjunction).
+[Mathematical logic](https://en.wikipedia.org/wiki/Mathematical_logic).
 
 
+## connect / disconnect
 
-### consume / produce
 
 
+## constant / variable
 
-### contiguous / noncontiguous
 
 
+## construct / destruct
 
-### continuous / discontinuous
+[Constructor (object-oriented programming)](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)).
+[Destructor](https://en.wikipedia.org/wiki/Destructor_(computer_programming)).
+[Creational pattern](https://en.wikipedia.org/wiki/Creational_pattern).
 
 
+## consume / produce
 
-### contract / expand
+[Producer-consumer problem](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem).
 
 
+## contiguous / noncontiguous
 
-### create / destroy
+[Difference Between Contiguous and Noncontiguous Memory Allocation](https://techdifferences.com/difference-between-contiguous-and-non-contiguous-memory-allocation.html).
 
 
 
-### cyclic / acyclic
+## continuous / discontinuous
 
+[Continuous function](https://en.wikipedia.org/wiki/Continuous_function).
 
 
-### decidable / undecidable
+## create / destroy
 
 
 
-### definite / indefinite
+## cyclic / acyclic
 
+[Cyclic graph](https://en.wikipedia.org/wiki/Cyclic_graph).
+[Directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph).
+[Cycle](https://en.wikipedia.org/wiki/Cycle_(graph_theory)).
+[Cycle graph](https://en.wikipedia.org/wiki/Cycle_graph).
+[Graph theory](https://en.wikipedia.org/wiki/Graph_theory).
 
 
-### deterministic / stochastic
+## decidable / undecidable
 
+[Decidability](https://en.wikipedia.org/wiki/Decidability_(logic)).
+[Decision problem](https://en.wikipedia.org/wiki/Decision_problem).
 
 
-### digital / analog
+## definite / indefinite
 
 
+## deterministic / stochastic
 
-### direct / indirect
+[Deterministic system](https://en.wikipedia.org/wiki/Deterministic_system).
+[Stochastic process](https://en.wikipedia.org/wiki/Stochastic_process).
 
 
+## digital / analog
 
-### direct / inverse
+[Digital signal](https://en.wikipedia.org/wiki/Digital_signal).
+[Analog signal](https://en.wikipedia.org/wiki/Analog_signal).
 
 
+## direct / indirect
 
-### dirty / clean
 
 
+## direct / inverse
 
-### divide / conquer
 
 
+## dirty / clean
 
-### download / upload
+[Dirty data](https://en.wikipedia.org/wiki/Dirty_data)
 
 
+## divide / conquer
 
-### drag / drop
+[Divide and conquer algorithm](https://en.wikipedia.org/wiki/Divide_and_conquer_algorithm)
 
 
+## download / upload
 
-### enable / disable
 
 
+## drag / drop
 
-### enlarge / narrow
 
 
+## enable / disable
 
-### enqueue / dequeue
 
 
+## enlarge / narrow
 
-### enter / leave (exit)
 
 
+## enqueue / dequeue
 
-### expand / collapse
 
 
+## enter / leave (exit)
 
-### extend / shorten
 
 
+## expand / collapse
 
-### FIFO / LIFO
+[Accordion (UI)](https://en.wikipedia.org/wiki/Accordion_(GUI)).
 
 
+## extend / shorten
 
-### finite / infinite
 
 
+## FIFO / LIFO
 
-### first / last
+[Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 
 
+## finite / infinite
 
-### fold / unfold
 
 
+## first / last
 
-### forget / remember
 
 
+## fold / unfold
 
-### forward / backward
+[Fold (higher-order function)](https://en.wikipedia.org/wiki/Fold_(higher-order_function)).
 
 
+## forget / remember
 
-### free / bound
 
 
+## forward / backward
 
-### freeze / unfreeze
 
 
+## free / bound
 
-### front / back
+[Free variables and bound variables](https://en.wikipedia.org/wiki/Free_variables_and_bound_variables).
 
 
+## freeze / unfreeze
 
-### gather / distribute
 
 
+## front / back
 
-### get / set
+[Front and back ends](https://en.wikipedia.org/wiki/Front_and_back_ends).
+[Multiple buffering](https://en.wikipedia.org/wiki/Multiple_buffering).
 
 
+## gather / distribute
 
-### grant / revoke
 
 
+## get / set
 
-### greater / lower
 
 
+## grant / revoke
 
-### greedy (eager) / lazy
+[SQL Security and privileges](http://www.cs.toronto.edu/~nn/csc309-20085/guide/pointbase/docs/html/htmlfiles/authorizationFIN.html).
 
 
+## greater / lower
 
-### group / divide
 
 
+## greedy (eager) / lazy
 
-### head / tail
+[Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm).
+[Lazy evaluation](https://en.wikipedia.org/wiki/Lazy_evaluation).
+[Greedy and lazy quantifiers in regular expressions](https://javascript.info/regexp-greedy-and-lazy).
+[Eager learning](https://en.wikipedia.org/wiki/Eager_learning).
+[Lazy learning](https://en.wikipedia.org/wiki/Lazy_learning).
 
 
+## group / divide
 
-### heap / stack
 
 
+## head / tail
 
-### hit / miss
+[14 tail and head commands in Linux/Unix](https://www.linux.com/blog/14-tail-and-head-commands-linuxunix)
+[Linked list](https://en.wikipedia.org/wiki/Linked_list).
 
 
+## heap / stack
 
-### homogeneous / heterogeneous
+[Heap data structure](https://en.wikipedia.org/wiki/Heap_(data_structure)).
+[Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
+[Memory management](https://en.wikipedia.org/wiki/Memory_management).
 
 
+## hit / miss
 
-### horizontal / vertical
+[Cache](https://en.wikipedia.org/wiki/Cache_(computing)).
 
 
+## homogeneous / heterogeneous
 
-### import / export
 
 
+## horizontal / vertical
 
-### inbound / outbound
 
 
+## implicit / explicit
 
-### include / exclude
+[Explicit and implicit methods in numerical analysis](https://en.wikipedia.org/wiki/Explicit_and_implicit_methods).
+[Zen of Python](https://en.wikipedia.org/wiki/Zen_of_Python).
 
 
+## import / export
 
-### increase / decrease
 
 
+## inbound / outbound
 
-### increment / decrement
 
 
+## include / exclude
 
-### indent / dedent
 
 
+## increase / decrease
 
-### inflate / deflate
 
 
+## increment / decrement
 
-### initial / final
 
 
+## indent / dedent
 
-### inner / outer
+[Indentation](https://en.wikipedia.org/wiki/Indentation_(typesetting)).
 
 
+## inflate / deflate
 
-### input / output
+[DEFLATE data compression algorithm](https://en.wikipedia.org/wiki/DEFLATE).
 
 
+## initial / final
 
-### insert (create) / delete
 
 
+## inner / outer
 
-### intended / unintended
 
 
+## input / output
 
-### internal / external
 
 
+## insert (create) / delete
 
-### intersection / union
 
 
+## intended / unintended
 
-### join (merge) / split
 
 
+## internal / external
 
-### key / value
 
 
+## intersection / union
 
-### label / unlabel
+[Intersection](https://en.wikipedia.org/wiki/Intersection_(set_theory)).
+[Union](https://en.wikipedia.org/wiki/Union_(set_theory)).
+[Set theory](https://en.wikipedia.org/wiki/Set_theory).
 
 
+## join (merge) / split
 
-### linear / nonlinear
+[Join in SQL](https://en.wikipedia.org/wiki/Join_(SQL)).
+[Joining lists and splitting strings in Python](http://www.diveintopython.net/native_data_types/joining_lists.html).
 
 
+## key / value
 
-### link / unlink
+[Key-value database](https://en.wikipedia.org/wiki/Key-value_database).
+[Associative array](https://en.wikipedia.org/wiki/Associative_array).
+[Attribute-value pair](https://en.wikipedia.org/wiki/Attribute%E2%80%93value_pair).
 
 
+## label / unlabel
 
-### load / dump (store)
+[Labeled data in machine learning](https://en.wikipedia.org/wiki/Labeled_data).
 
 
+## linear / nonlinear
 
-### local / global
+[Linearity](https://en.wikipedia.org/wiki/Linearity).
+[Nonlinear system](https://en.wikipedia.org/wiki/Nonlinear_system).
 
 
+## link / unlink
 
-### local / remote (distant)
 
 
+## load / dump (store)
 
-### lower / upper
+[Load/store architecture](https://en.wikipedia.org/wiki/Load/store_architecture).
+[Load-store unit](https://en.wikipedia.org/wiki/Load%E2%80%93store_unit).
 
 
+## local / global
 
-### major / minor
+[Global variable](https://en.wikipedia.org/wiki/Global_variable).
 
 
+## local / remote (distant)
 
-### map / reduce
 
 
+## lower / upper
 
-### master / slave
 
 
+## major / minor
 
-### minimal / maximal
+[Semantic versioning](https://semver.org/).
+[Software versioning](https://en.wikipedia.org/wiki/Software_versioning).
 
+## map / reduce
 
+[MapReduce](https://en.wikipedia.org/wiki/MapReduce).
 
-### named / unnamed
 
+## master / slave
 
+[Master/slave configuration](https://en.wikipedia.org/wiki/Master/slave_(technology)).
 
-### next / previous
+Note: prefer the terms *primary / secondary*.
 
 
+## minimal / maximal
 
-### open / close
 
 
+## named / unnamed
 
-### optimal / suboptimal
 
 
+## next / previous
 
-### ordered / disordered
 
 
+## open / close
 
-### pack / unpack
 
 
+## optimal / suboptimal
 
-### parent / child
 
 
+## ordered / disordered
 
-### passive / active
 
 
+## pack / unpack
 
-### pending / finished
+[Pack and unpack in Perl](https://www.stat.berkeley.edu/~spector/extension/perl/notes/node87.html).
+[Pack and unpack in MPI](http://mpi-forum.org/docs/mpi-2.2/mpi22-report/node84.htm).
 
 
+## parent / child
 
-### positive / negative
+[Parent process](https://en.wikipedia.org/wiki/Parent_process).
+[Child process](https://en.wikipedia.org/wiki/Child_process).
+[Fork](https://en.wikipedia.org/wiki/Fork_(system_call)).
+[Tree data structure](https://en.wikipedia.org/wiki/Tree_(data_structure)).
+[Document Object Model (DOM)](https://en.wikipedia.org/wiki/Document_Object_Model).
 
 
+## passive / active
 
-### postfix (suffix) / prefix
 
 
+## pending / finished
 
-### precede / follow
 
 
+## positive / negative
 
-### press / release
 
 
+## postfix (suffix) / prefix
 
-### public / private
 
 
+## precede / follow
 
-### push / pop
 
 
+## press / release
 
-### push / pull
 
 
+## primary / secondary
 
-### read / write
 
 
+## public / private
 
-### record / retrieve
+[Access modifiers](https://en.wikipedia.org/wiki/Access_modifiers).
 
 
+## push / pop
 
-### recover / lose
+[Stack (abstract data type)](https://en.wikipedia.org/wiki/Stack_(abstract_data_type))
 
 
+## push / pull
 
-### reference / dereference
 
 
+## read / write
 
-### register / unregister
 
 
+## record / retrieve
 
-### request / response
 
 
+## recover / lose
 
-### restricted / unrestricted
 
 
+## reference / dereference
 
-### run time / compile time
 
 
+## register / unregister
 
-### search / find
 
 
+## request / response
 
-### select / deselect
+[Request-response communication](https://en.wikipedia.org/wiki/Request%E2%80%93response).
 
 
+## restricted / unrestricted
 
-### send / receive
 
 
+## run time / compile time
 
-### sequential / parallel
+[Compile time](https://en.wikipedia.org/wiki/Compile_time).
+[Run time](https://en.wikipedia.org/wiki/Run_time_(program_lifecycle_phase)).
+[Runtime system](https://en.wikipedia.org/wiki/Runtime_system).
 
 
+## search / find
 
-### set up / tear down
 
 
+## select / deselect
 
-### show / hide
 
 
+## send / receive
 
-### silent / verbose
 
 
+## sequential / parallel
 
-### single / multiple
+[Sequential algorithm](https://en.wikipedia.org/wiki/Sequential_algorithm).
+[Parallel computing](https://en.wikipedia.org/wiki/Parallel_computing).
 
 
+## set up / tear down
 
-### soft / hard
+[Unit testing](https://en.wikipedia.org/wiki/Unit_testing).
 
 
+## show / hide
 
-### solvable / unsolvable
 
 
+## silent / verbose
 
-### sort / unsort
 
 
+## single / multiple
 
-### source (origin) / destination
 
 
+## soft / hard
 
-### sparse / dense
 
 
+## solvable / unsolvable
 
-### stable / unstable
+[Turing degree](https://en.wikipedia.org/wiki/Turing_degree).
 
 
+## sort / unsort
 
-### start / stop
+[Sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm).
 
 
+## source (origin) / destination
 
-### stateful / stateless
 
 
+## sparse / dense
 
-### static / dynamic
+[Sparse matrix](https://en.wikipedia.org/wiki/Sparse_matrix)
 
 
+## stable / unstable
 
-### strong / weak
+[Stability in sorting algorithms](https://www.geeksforgeeks.org/stability-in-sorting-algorithms/).
+[Stable-unstable semantics](https://www.cambridge.org/core/journals/theory-and-practice-of-logic-programming/article/stable-unstable-semantics-beyond-np-with-normal-logic-programs/DC9BB0EED8EBCC6D7BE30C0FA62A1BB5).
 
 
+## start / stop
 
-### sub / super
 
 
+## stateful / stateless
 
-### subscribe / unsubscribe
+[Stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol).
 
 
+## static / dynamic
 
-### subset / superset
+[Type system](https://en.wikipedia.org/wiki/Type_system).
+[Static analysis](https://en.wikipedia.org/wiki/Static_analysis).
 
 
+## strong / weak
 
-### superclass / subclass
+[Strong and weak typing](https://en.wikipedia.org/wiki/Strong_and_weak_typing).
 
 
+## sub / super
 
-### symmetric / asymmetric
 
 
+## subscribe / unsubscribe
 
-### synchronize / desynchronize
 
 
+## subset / superset
 
-### top / bottom
+[Subset](https://en.wikipedia.org/wiki/Subset).
 
 
+## superclass / subclass
 
-### total / partial
+[Object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming).
 
 
+## supervised / unsupervised
 
-### tractable / intractable
+[Supervised learning](https://en.wikipedia.org/wiki/Supervised_learning).
+[Unsupervised learning](https://en.wikipedia.org/wiki/Unsupervised_learning).
 
 
+## symmetric / asymmetric
 
-### trim / expand
 
 
+## synchronous / asynchronous
 
-### true / false
+[Synchronization](https://en.wikipedia.org/wiki/Synchronization_(computer_science)).
+[Synchronous programming language](https://en.wikipedia.org/wiki/Synchronous_programming_language).
+[Asynchrony](https://en.wikipedia.org/wiki/Asynchrony_(computer_programming)).
+[Futures and promises](https://en.wikipedia.org/wiki/Futures_and_promises).
 
 
+## top / bottom
 
-### up / down
 
 
+## top-down / bottom-up
 
-### validate / invalidate
+[Top-down and bottom-up design](https://en.wikipedia.org/wiki/Top-down_and_bottom-up_design).
 
 
+## total / partial
 
-### value / reference
+[Total order](https://en.wikipedia.org/wiki/Total_order).
+[Partially ordered set](https://en.wikipedia.org/wiki/Partially_ordered_set).
 
 
+## tractable / intractable
 
-### virtual / real
+[Parameterized complexity](https://en.wikipedia.org/wiki/Parameterized_complexity).
+[Computational complexity theory](https://en.wikipedia.org/wiki/Computational_complexity_theory).
 
 
+## trim / expand
 
-### visible / invisible
 
 
+## true / false
 
-### wait / resume
+[Boolean data type](https://en.wikipedia.org/wiki/Boolean_data_type).
 
 
+## up / down
 
-### weighted / unweighted
 
 
+## validate / invalidate
+
+[Cache invalidation](https://en.wikipedia.org/wiki/Cache_invalidation).
+
+
+## value / reference
+
+[Evaluation strategy](https://en.wikipedia.org/wiki/Evaluation_strategy).
+
+
+## virtual / real
+
+[Virtual class](https://en.wikipedia.org/wiki/Virtual_class).
+[Virtual reality](https://en.wikipedia.org/wiki/Virtual_reality).
+
+
+## visible / invisible
+
+
+
+## wait / resume
+
+[Wait system call](https://en.wikipedia.org/wiki/Wait_(system_call)).
+
+
+## weighted / unweighted
+
+[Graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)).
 
 
 
