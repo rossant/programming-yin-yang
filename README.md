@@ -6,6 +6,8 @@ Good programmers name things well. Finding the most appropriate and common terms
 
 This is a work in progress, feel free to open issues and propose pull requests.
 
+One related effort is Microsoft's list of PowerShell verbs, "Approved Verbs for PowerShell Commands", https://docs.microsoft.com/en-us/powershell/developer/cmdlet/approved-verbs-for-windows-powershell-commands
+
 
 ## abstract / concrete
 
